@@ -1,0 +1,15 @@
+/home/Owner/Documents/dotNet/resdiaryChallenge/bin/Debug/net7.0/resdiaryChallenge
+/home/Owner/Documents/dotNet/resdiaryChallenge/bin/Debug/net7.0/resdiaryChallenge.deps.json
+/home/Owner/Documents/dotNet/resdiaryChallenge/bin/Debug/net7.0/resdiaryChallenge.runtimeconfig.json
+/home/Owner/Documents/dotNet/resdiaryChallenge/bin/Debug/net7.0/resdiaryChallenge.dll
+/home/Owner/Documents/dotNet/resdiaryChallenge/bin/Debug/net7.0/resdiaryChallenge.pdb
+/home/Owner/Documents/dotNet/resdiaryChallenge/obj/Debug/net7.0/resdiaryChallenge.csproj.AssemblyReference.cache
+/home/Owner/Documents/dotNet/resdiaryChallenge/obj/Debug/net7.0/resdiaryChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/home/Owner/Documents/dotNet/resdiaryChallenge/obj/Debug/net7.0/resdiaryChallenge.AssemblyInfoInputs.cache
+/home/Owner/Documents/dotNet/resdiaryChallenge/obj/Debug/net7.0/resdiaryChallenge.AssemblyInfo.cs
+/home/Owner/Documents/dotNet/resdiaryChallenge/obj/Debug/net7.0/resdiaryChallenge.csproj.CoreCompileInputs.cache
+/home/Owner/Documents/dotNet/resdiaryChallenge/obj/Debug/net7.0/resdiaryChallenge.dll
+/home/Owner/Documents/dotNet/resdiaryChallenge/obj/Debug/net7.0/refint/resdiaryChallenge.dll
+/home/Owner/Documents/dotNet/resdiaryChallenge/obj/Debug/net7.0/resdiaryChallenge.pdb
+/home/Owner/Documents/dotNet/resdiaryChallenge/obj/Debug/net7.0/resdiaryChallenge.genruntimeconfig.cache
+/home/Owner/Documents/dotNet/resdiaryChallenge/obj/Debug/net7.0/ref/resdiaryChallenge.dll

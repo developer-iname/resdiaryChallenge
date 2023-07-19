@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5vpV2koDQ0p0EY5E/j6gVFgeyWAB0pZjnNCGNfHOhW+CqOLbpXQNYG/htLHNx00Yixi6CcS1S7Y78M92mV1ESQ==",
+  "success": true,
+  "projectFilePath": "/home/Owner/Documents/dotNet/resdiaryChallenge/resdiaryChallenge.csproj",
+  "expectedPackageFiles": [
+    "/home/Owner/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.9/microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
