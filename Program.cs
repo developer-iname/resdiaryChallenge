@@ -2,26 +2,25 @@
 
 int[][] groupArrays(int[] arrToBeGrouped, int numArrToBeReturned)
 { 
-    //Get exact amount of times N goes into Array Size
+    //Get exact amount of times N goes into Array Size. Round to nearest whole, if midpoint then round up. Loop and on last iteration, take remaining lot of elements.
     double getEqualPortionAmount = (double)arrToBeGrouped.Length / (double)numArrToBeReturned;
-    //Round portion amount since it's integer based, cannot have < or > than whole number in array
     getEqualPortionAmount = Math.Round(getEqualPortionAmount,MidpointRounding.AwayFromZero);
-
     int[][] arrayGroupsToBeReturned = new int[numArrToBeReturned][];
 
     for(int x = 0; x < numArrToBeReturned; x++)
     {
-        List<int> listTempItems = new List<int>(); //using list to prevent array initalisation from adding extra elements
+        //using list to prevent array initalisation from adding extra 0 elements. if x is on last iteration then get remaining elements, else grab the next set of equally distributable elements
+        List<int> listTempItems = new List<int>(); 
         for(int i = ( x * (int)getEqualPortionAmount); i < (x + 1 == numArrToBeReturned ? arrToBeGrouped.Length : (x * (int)getEqualPortionAmount) + getEqualPortionAmount); i++) //On Last iteration gather remaining elements
         {
-            Console.WriteLine(x);
-            listTempItems.Add(arrToBeGrouped[i]); // Gets next set of equally distributable elements
+            listTempItems.Add(arrToBeGrouped[i]);
         }
         arrayGroupsToBeReturned[x] = listTempItems.ToArray();
     }
     return arrayGroupsToBeReturned;
 } 
 
+//output challenge to console.
 int[][] jaggedArray = groupArrays(new int[]{1, 2, 3, 4, 5, 6, 7, 8}, 7);
 string output =  string.Empty;
 
